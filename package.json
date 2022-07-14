@@ -1,5 +1,5 @@
 {
-  "name": "pentabot",
+  "name": "DzxalBot",
   "version": "7.6.98",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
@@ -25,14 +25,14 @@
     "MD",
     "baileys-md"
   ],
-  "homepage": "https://github.com/arivpns",
+  "homepage": "https://github.com/HanzGanzz",
   "author": "Gempy Ton",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arivpns"
+    "url": "git+https://github.com/HanzGanzz"
   },
   "bugs": {
-    "url": "https://github.com/arivpns"
+    "url": "https://github.com/HanzGanzz"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
