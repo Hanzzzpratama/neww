@@ -1,12 +1,12 @@
 let fs = require('fs')                    //CREATOR = YahyaGanzz , DEVBOT
 let chalk = require('chalk')
 global.owner = [
-  ['6281222746323'],
-  ['6281222746323'],
-  ['6281222746323', 'Owner DzxalBot', true]  
+  ['6281247136784'],
+  ['6281247136784'],
+  ['6281247136784.', 'Owner DzxalBot', true]  
   
 ] 
-global.ownername = [['HanzzGanzz']]
+global.ownername = [['Renz']]
 global.namabot = [['DzxalBot-MD']]
 global.ownerinsta = [['@Hanz_Official_93236']]
 global.mods = [] 
@@ -44,7 +44,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'DzxalBot-MD'
-  var sticker_author = 'By HanzzGanzz'
+  var sticker_author = 'By Hanz & Renz'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -61,7 +61,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = 'Created by HanzzGanzz'
+global.wm = 'Created by Hanzz & Renz'
 
 global.multiplier = 1000 // The higher, The harder levelup
 
